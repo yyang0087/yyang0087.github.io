@@ -227,15 +227,15 @@ header .introduction p {
 .about_text h3 {
   text-align: center;
   font-weight: 600;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #ffa31a;
-  padding: 10px;
+  padding: 5px;
 }
 
 .about_text p {
   font-size: 1em;
-  padding: 10px;
-  margin: 0px 10px;
+  padding: 1px;
+  margin: 0px 12px;
   color: #FFFFFF;
 }
 
@@ -435,7 +435,9 @@ textarea {
 .contact_title {
   color: #ffa31a;
 }
-
+#contact h3 {
+  margin: 20px;
+}
 
 
 
