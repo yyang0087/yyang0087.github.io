@@ -1,50 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Latest compiled and minified CSS -->
-        <title>Yu-Lin's Website</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="origin">
+  <title>Yu-Lin's Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         
-        <link href="main.css" rel="stylesheet" />
-    </head>
-    <body>
-        
-        
-        
-        
-        <div class="jumbotron container-fluid">
-            <div class="container">
-              <h1>Hi, I'm Yu-Lin.</h1>
-              <p>My site is currently under maintenance. Please check back later.<br> Check out my other stuff in the meantime!</p>
-                
-              <p>
-                  <a class="btn btn-primary btn-lg" href="https://github.com/yyang0087/yyang0087.github.io" role="button">GitHub</a>
-                  <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/yu-lin-yang-665923103" role="button">LinkedIn</a>
-                  <a class="btn btn-primary btn-lg" href="https://www.dropbox.com/s/q9tr4boxgd3so2t/Yu-Lin_Yang_Resume_2017.pdf?dl=0" role="button">Resume</a>
-                
+      </div><!-- navbar-header -->
+
+
+
+
+
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#featured">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>        
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+
+
+
+  <div class="carousel fade" data-ride="carousel" id="featured">
+
+      <div class ="introduction">
+
+          <img class="icon" src="wp/yang.jpg" alt="Icon">
+          <h3>Yu-Lin Yang</h3>
+          <p><i>developer, <br> entrepeneur, <br> videographer.</i></p>
+      </div>
+
+
+    <ol class="carousel-indicators">
+    </ol>
+
+    <div class="carousel-inner fullheight">
+            <div class="item active"><img src="wp/5.jpg" alt="Lifestyle Photo"></div>
+            <div class="item"><img src="wp/1.jpg" alt="Mission"></div>
+            <div class="item"><img src="wp/2.jpg" alt="Vaccinations"></div>
+            <div class="item"><img src="wp/3.jpg" alt="Fish"></div>
+            <div class="item"><img src="wp/4.jpg" alt="Exotic Animals"></div>         
+    </div><!-- carousel-inner -->
+
+
+    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div><!-- featured carousel -->
+
+
+</header>
+
+
+
+
+
+
+
+
+<div class="main">
+
+  <div class="page" id="about">
+    <div class="container-fluid" id="about_container">
+      <div class="row" id="about_row">
+
+        <div class=" halfPicture col-lg-6 col-md-6 fullheight" id="portrait">
+        </div> 
+
+        <div class="about_text col-lg-6 col-md-6 fullheight" id="about_text_id">
+            <div class="info">
+              <h3>About me</h3>
+              <p>I'm a undergraduate student at the University of Wisconsin - Madison. I love to explore, tinker, and create. If I'm not doing school work, you can probably find me making videos, taking photos, or starting a new business.</p>
+              <p>I believe that all technology should be developed with the user or client in mind. When I work, I focus beyond the functionality of the product by concentrating on the experience of the user. 
               </p>
-              <p>
-                    Sample Projects (more to come):
+              <p>If you have an idea for something amazing, crazy, or straight up impossible and need an extra hand, hit me up and I'm more than eager to explore the unknown with you.
               </p>
-              <p>
-                    <a class="btn btn-primary btn-lg" href="http://yulinyang.me/GTA_Globe" role="button">Global Terrorism Attacks 3D Globe</a>
-              </p>
-            </div>
+              <p>You can find my resume <a href="https://www.dropbox.com/s/q9tr4boxgd3so2t/Yu-Lin_Yang_Resume_2017.pdf?dl=0">here.</a>
+            </div><!-- info -->
+        </div> <!-- doctor -->
+
+
+      </div><!-- outer row -->
+    </div><!-- container -->
+  </div><!-- about page -->
+
+
+
+
+  <div class="page" id="projects">
+    <div id="h2Title"><h2>Projects</h2></div>
+    <div class="container-fluid">
+      
+      <div class="row">
+        <blockquote class="col-md-6 col-lg-6" id="janeh">
+          <div class="quote">
+            <span class="intro"><a href="http://yulinyang.me/GTA_Globe/">3D Infographic of Global Terrorism Attacks from 2012-2014 (2016, web.gl, html, css, js)</a></span>
+            <span class="more">  I built a 3D interactive globe showcasing the frequency of documented terrorist attacks on the Global Terrorism Database in 2012, 2013, and 2014 using WebGL Globe. This data was first acquired from the GTD compiled by the University of Maryland - College Park. I downloaded the data in excel format, omitted unnecessary data, and exported as a JSON file. Since the data from the JSON file is not the same format as the one the Globe receives data, I wrote a JS program (Inside "Conversion Program") to gather all repeated latitude/longitudes by year and set it as the length (magnitude) of the line on the actual globe. (The rounding factor of longitude/latitude as well as the scale factor of the data set (line height) can be adjusted as well in this program) The colors of the line is determined by the length of each line through statistical normalization (longer line - darker color, shorter line - lighter). Red, grey, and black were chosen as the dominant colors since that better reflects the violence of the topic (terrorism). Lastly, I used Photoshop to create a globe image. <p> More information can be found <a href="https://github.com/yyang0087/GTA_Globe">here.</a></p></span>
+            <span class="customer">Jane H.</span>
+          </div>
+        </blockquote>
+
+        <blockquote class="col-md-6 col-lg-6" id="mcphersons">
+          <div class="quote">
+            <span class="intro">UW-Madison TicketBuddy <br>(2016, iOS, Swift, Xcode, Firebase, Node.js)</span>
+            <span class="more">At UW Madison, there are many people trying to buy/sell football tickets the day before/of the game and trying to communicate over other forms of social media such as Facebook and Snapchat. Many of the buyers/sellers have trouble communicating with other buyers/sellers. This app attempts to streamline that process of finding matches and efficiently completing transactions. I used Swift in Xcode to build the foundation of the app. I implemented Firebase to have a database to store the login data. I instantiated a local Node.js server to store the posting data for each game.<p> More information can be found <a href="https://github.com/yyang0087/TicketBuddy">here.</a></p></span>
+            <span class="customer">The McPhersons</span>
+          </div>
+        </blockquote>
+
+        <blockquote class="col-md-6 col-lg-6" id="johnb">
+          <div class="quote">
+            <span class="intro">PocketNote (2016, iOS, Swift, XCode)</span>
+            <span class="more">This is a simple notetaking app that is made to mimic a short, clean, and concise note in a pocket. The design is to minimize clutter, and notifications allow the user to be periodically reminded of the note. <p> More information can be found <a href="https://github.com/yyang0087/PocketNote">here.</a></p></span>
+            <span class="customer">John B</span>
+          </div>
+        </blockquote>
+
+        <blockquote class="col-md-6 col-lg-6" id="lorraines">
+          <div class="quote">
+            <span class="intro">Process Sweeper (2015, Processing, Java)</span>
+            <span class="more">This is a mini project during the summer of 2015 that utilizes Processing, a software that allows intuitive visual Java.<p> More information can be found <a href="https://github.com/yyang0087/Process-Sweeper">here.</a></p></span>
+            <span class="customer">Lorraine S</span>
+          </div>
+        </blockquote>          
+      </div>
+    </div><!-- container -->
+  </div><!-- testimonials page -->
+</div><!-- main -->
+
+
+
+
+<div class="page" id="contact">
+  <div class="container-fluid">
+    <h2>Contact Me</h2>
+    <div class="row">
+
+      <form class="col-lg-6" id="contact-form" method="POST">
+        <div class="row">
+          <label class= "contact_title" for="name">Your name:</label><br />
+          <input type="text" name="name" placeholder="Your name" type="text" size"30" /><br />
         </div>
-        
+        <div class="row">
+          <label class= "contact_title" for="email">Your email:</label><br />
+          <input type="email" name="_replyto" placeholder="Your email">
+          <input type="hidden" name="_subject" value="Website contact" />
+        </div>
+        <div class="row">
+          <label class= "contact_title" for="message">Your message:</label><br />
+          <textarea name="message" placeholder="Your message"rows="7" cols="30"></textarea><br />
+          <input type="text" name="_gotcha" style="display:none" />
+        </div>
 
-        
-        
-        <!--<h1>Hello World</h1>
-            <h2>This is Yu-Lin</h2>
-                <p>And I'm so much cooler than Nick. \n Lara steals food from the dining halls.</p>
-    
-        -->
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </body>
+          <input type="submit" value="Send email">
+      </form>
+      <script>
+          var contactform =  document.getElementById('contact-form');
+          contactform.setAttribute('action', 'https://formspree.io/' + 'triplexlink' + '@' + 'gmail' + '.' + 'com');
+      </script>
+
+      <div class="container-fluid col-lg-6" id="icons">
+            <h3 class= "contact_title" >Or find me on: </h3>
+            <div class="row">
+              <article class="links col-xs-6">
+                <a href="https://github.com/yyang0087" target="_blank">
+                  <img class="icon" src="wp/github.png" alt="Icon">
+                  <h3 class= "contact_title" >Github</h3>
+                </a>
+              </article>
+              <article class="links col-xs-6">
+                <a href="https://devpost.com/yyang0087" target="_blank">
+                  <img class="icon" src="wp/devpost.png" alt="Icon">
+                  <h3 class= "contact_title" >Devpost</h3>
+                </a>
+              </article>
+              <article class="links col-xs-6">
+                <a href="https://www.linkedin.com/in/yu-lin-yang-665923103" target="_blank">
+                  <img class="icon" src="wp/linkedin.png" alt="Icon">
+                  <h3 class= "contact_title" >LinkedIn</h3>
+                </a>
+              </article>
+              <article class="links col-xs-6">
+                <a href="https://facebook.com/triplexlink" target="_blank">
+                  <img class="icon" src="wp/facebook.png" alt="Icon">
+                  <h3 class= "contact_title" >Facebook</h3>
+                </a>
+              </article>
+
+            </div>
+      </div> <!-- doctor -->  
+
+
+    </div>        
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+</body>
 </html>
