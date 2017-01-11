@@ -246,6 +246,9 @@ header .introduction p {
   background: url(../wp/train.jpg) no-repeat center center;
   background-size: cover;
 }
+.elim {
+  display: none;
+}
 
 /**
 .about_text_adjustment {

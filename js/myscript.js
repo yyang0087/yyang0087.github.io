@@ -48,7 +48,7 @@ $(function() {
           $('#portrait').removeClass('background-image');
  */         $('#about_container').addClass('container-fluid');
           $('#about_text_id').addClass('col-lg-6 col-md-6 fullheight');
-          
+          $('#portrait').removeClass('elim');
 
           /**
           if ($('#dimbg').length) {
@@ -72,7 +72,7 @@ $(function() {
           $('#about_container').removeClass('container-fluid');
           
           $('#about_text_id').removeClass('col-lg-6 col-md-6 fullheight');
-          
+          $('#portrait').addClass('elim');
 /**
           if ($('#portrait').length) {
             console.log("portrait");
