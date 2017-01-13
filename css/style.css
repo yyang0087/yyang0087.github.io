@@ -14,21 +14,38 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+@media all and (max-width: 2560px) { /* screen size until 1200px */
+    body {
+        font-size: 2em; /* 1.5x default size */
+    }
+    header .introduction {
+      width: 600px;
+    }
+}
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     body {
-        font-size: 1.5em; /* 1.5x default size */
+        font-size: 1.8em; /* 1.5x default size */
+    }
+    header .introduction {
+      width: 400px;
     }
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
     body {
-        font-size: 1.2em; /* 1.2x default size */
-        }
+        font-size: 1.4em; /* 1.2x default size */
+    }
+    header .introduction {
+      width: 400px;
+    }
     }
 @media all and (max-width: 500px) { /* screen size until 500px */
     body {
-        font-size: 1em; /* 0.8x default size */
-        }
+        font-size: 1.2em; /* 0.8x default size */
     }
+    header .introduction {
+      width: 400px;
+    }
+}
 
 
 
@@ -55,9 +72,9 @@ header .navbar-default .navbar-nav a:hover {
 
 header .navbar-default .navbar-nav .active a {
   font-weight: 700;
-  color: #ffa31a;
+  color: #FFD953;
   background: transparent;
-  border-bottom: 4px solid #ffa31a;
+  border-bottom: 4px solid #FFD953;
   text-shadow: none;
 }
 
@@ -128,12 +145,12 @@ header .inbody .navbar-brand span.subhead {
   margin-bottom: 30px;
 }*/
 header .introduction {
-    width: 300px;
-    height: 300px;
+    /**width: 400px;*/
+    height: 500px;
 
     position: absolute;
     z-index: 200;
-    top:0;
+    top:200px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -144,21 +161,22 @@ header .introduction {
     text-align: center;
 }
 header .introduction img.icon {
-  display: block;
+  display: none;
   width: 150px;
   margin: 0 auto;
   margin-bottom: 0px;
   border-radius: 200px;
 }
 header .introduction h3 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 10px;
   color: #FFD953;
+
 }
 header .introduction p {
-  font-size: 1.8em;
+  font-size: 1em;
   margin: 10px;
-  color: #FFD953;
+  color: #FFFFFF;
 }
 
 
@@ -243,10 +261,10 @@ header .introduction p {
 }
 
 .about_text h3 {
-  text-align: center;
+  
   font-weight: 600;
   font-size: 3em;
-  color: #ffa31a;
+  color: #FFD953;
   padding: 5px;
 }
 
@@ -291,6 +309,10 @@ header .introduction p {
   right: 0;
   z-index: 1;
 }
+.info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 
 
@@ -304,7 +326,8 @@ header .introduction p {
 
 #projects {
   padding: 0;
-  background: url(../wp/14.jpg) no-repeat fixed center;
+  /**background: url(../wp/6.jpg) no-repeat fixed center;*/
+  background-color: #666666;
   background-size: cover;
 }
 
@@ -313,6 +336,8 @@ header .introduction p {
   font-size: 3em;
   color: #FFD953;
   line-height: 1.8;
+  margin: 2px;
+  font-weight: bold;
 }
 
 #projects blockquote {
@@ -452,7 +477,7 @@ textarea {
 }
 .contact_title {
   font-size: 1.5em;
-  color: #ffa31a;
+  color: #FFD953;
 }
 #contact h3 {
   margin: 30px;
