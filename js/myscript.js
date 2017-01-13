@@ -65,13 +65,12 @@ $(function() {
           */
 
       }else{
-          console.log("curr less");
           $('#about_row').removeClass('row');
           /**$('#portrait').removeClass('halfPicture');
           $('#portrait').addClass('background-image');*/
           $('#about_container').removeClass('container-fluid');
           
-          $('#about_text_id').removeClass('col-lg-6 col-md-6 fullheight');
+          $('#about_text_id').removeClass('col-lg-6 col-md-6');
           $('#portrait').addClass('elim');
 /**
           if ($('#portrait').length) {
