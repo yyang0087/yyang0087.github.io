@@ -14,14 +14,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
 }
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
-
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 1em; /* 0.8x default size */
+        }
+    }
 
 
 
@@ -144,12 +151,12 @@ header .introduction img.icon {
   border-radius: 200px;
 }
 header .introduction h3 {
-  font-size: 1.8em;
+  font-size: 3em;
   margin: 10px;
   color: #FFD953;
 }
 header .introduction p {
-  font-size: 1.2em;
+  font-size: 1.8em;
   margin: 10px;
   color: #FFD953;
 }
@@ -238,13 +245,13 @@ header .introduction p {
 .about_text h3 {
   text-align: center;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 3em;
   color: #ffa31a;
   padding: 5px;
 }
 
 .about_text p {
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 1px;
   margin: 0px 10px;
   color: #FFFFFF;
@@ -303,7 +310,7 @@ header .introduction p {
 
 #projects h2 {
   /**display: none;*/
-  font-size: 1.6em;
+  font-size: 3em;
   color: #FFD953;
   line-height: 1.8;
 }
@@ -444,10 +451,14 @@ textarea {
   border-radius: 5px;
 }
 .contact_title {
+  font-size: 1.5em;
   color: #ffa31a;
 }
 #contact h3 {
-  margin: 20px;
+  margin: 30px;
+  font-size: 2em;
+  color: #FFD953;
+  line-height: 1.8;
 }
 
 
