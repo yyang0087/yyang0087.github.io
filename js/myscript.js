@@ -48,7 +48,8 @@ $(function() {
 /**          $('#portrait').addClass('halfPicture');
           $('#portrait').removeClass('background-image');
  */         $('#about_container').addClass('container-fluid');
-          $('#about_text_id').addClass('col-lg-6 col-md-6 fullheight');
+          $('#about_text_id').addClass('col-lg-6 col-md-6 restore');
+          $('#about_text_id').removeClass('extend');
           $('#portrait').removeClass('elim');
 
           /**
@@ -71,7 +72,8 @@ $(function() {
           $('#portrait').addClass('background-image');*/
           $('#about_container').removeClass('container-fluid');
           
-          $('#about_text_id').removeClass('col-lg-6 col-md-6');
+          $('#about_text_id').removeClass('col-lg-6 col-md-6 restore');
+          $('#about_text_id').addClass('extend');
           $('#portrait').addClass('elim');
 /**
           if ($('#portrait').length) {
