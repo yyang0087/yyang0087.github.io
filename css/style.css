@@ -451,12 +451,14 @@ textarea {
   color: #FFD953;
 }
 #contact h3 {
-  margin: 30px;
+  margin: 10px;
   font-size: 2em;
   color: #FFD953;
   line-height: 1.8;
 }
-
+#git {
+  border-radius: 900px;
+}
 
 
 

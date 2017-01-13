@@ -183,22 +183,22 @@
     <div class="row">
 
       <form class="col-lg-6" id="contact-form" method="POST">
-        <div class="row">
+        <div class="row col-lg-4 col-lg-offset-2">
           <label class= "contact_title" for="name">Your name:</label><br />
-          <input type="text" name="name" placeholder="Your name" type="text" size"30" /><br />
+          <input type="text" name="name" placeholder="" type="text" size"30" /><br />
         </div>
-        <div class="row">
+        <div class="row col-lg-4">
           <label class= "contact_title" for="email">Your email:</label><br />
-          <input type="email" name="_replyto" placeholder="Your email">
+          <input type="email" name="_replyto" placeholder="">
           <input type="hidden" name="_subject" value="Website contact" />
         </div>
-        <div class="row">
+        <div class="row col-lg-12">
           <label class= "contact_title" for="message">Your message:</label><br />
-          <textarea name="message" placeholder="Your message"rows="7" cols="30"></textarea><br />
+          <textarea name="message" placeholder=""rows="10" cols="50"></textarea><br />
           <input type="text" name="_gotcha" style="display:none" />
         </div>
 
-          <input type="submit" value="Send email">
+          <input class="row col-lg-2 col-lg-offset-5" type="submit" value="Send email">
       </form>
       <script>
           var contactform =  document.getElementById('contact-form');
@@ -210,7 +210,7 @@
             <div class="row">
               <article class="links col-xs-6">
                 <a href="https://github.com/yyang0087" target="_blank">
-                  <img class="icon" src="wp/github.png" alt="Icon">
+                  <img class="icon" src="wp/gh.png" alt="Icon" id="git">
                   <h4 class= "contact_title" >Github</h4>
                 </a>
               </article>
