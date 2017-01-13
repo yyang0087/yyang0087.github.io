@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media all and (max-width: 800px) { /* screen size until 1000px */
     body {
-        font-size: 1em; /* 1.2x default size */
+        font-size: 1.2em; /* 1.2x default size */
     }
 }
 
