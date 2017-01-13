@@ -41,6 +41,7 @@ $(function() {
     fixPic();
     console.log("hi");
   };
+
   function fixPic() {
       if($(window).innerWidth() >= 977) { /**when big*/
           $('#about_row').addClass('row');

@@ -16,34 +16,17 @@ h1, h2, h3, h4, h5, h6 {
 
 @media all and (max-width: 2560px) { /* screen size until 1200px */
     body {
-        font-size: 2em; /* 1.5x default size */
-    }
-    header .introduction {
-      width: 600px;
+        font-size: 1.8em; /* 1.5x default size */
     }
 }
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     body {
-        font-size: 1.8em; /* 1.5x default size */
-    }
-    header .introduction {
-      width: 400px;
+        font-size: 1.5em; /* 1.5x default size */
     }
 }
-@media all and (max-width: 1000px) { /* screen size until 1000px */
+@media all and (max-width: 800px) { /* screen size until 1000px */
     body {
-        font-size: 1.4em; /* 1.2x default size */
-    }
-    header .introduction {
-      width: 400px;
-    }
-    }
-@media all and (max-width: 500px) { /* screen size until 500px */
-    body {
-        font-size: 1.2em; /* 0.8x default size */
-    }
-    header .introduction {
-      width: 400px;
+        font-size: 1em; /* 1.2x default size */
     }
 }
 
@@ -145,8 +128,8 @@ header .inbody .navbar-brand span.subhead {
   margin-bottom: 30px;
 }*/
 header .introduction {
-    /**width: 400px;*/
-    height: 500px;
+    width: 90%;
+    height: 50%;
 
     position: absolute;
     z-index: 200;
@@ -168,13 +151,13 @@ header .introduction img.icon {
   border-radius: 200px;
 }
 header .introduction h3 {
-  font-size: 2.5em;
+  font-size: 4.2em;
   margin: 10px;
   color: #FFD953;
 
 }
 header .introduction p {
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 10px;
   color: #FFFFFF;
 }
@@ -254,6 +237,7 @@ header .introduction p {
 
 
 .about_text {
+  padding: 20px 0px;
   left: 0;
   right: 0;
   z-index: 150;
@@ -265,13 +249,14 @@ header .introduction p {
   font-weight: 600;
   font-size: 3em;
   color: #FFD953;
-  padding: 5px;
+  padding: 10px;
+  margin: 0px 10px 0px;
 }
 
 .about_text p {
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 1px;
-  margin: 0px 10px;
+  margin: 0px 20px;
   color: #FFFFFF;
 }
 
@@ -297,22 +282,6 @@ header .introduction p {
   color: #000000;
 }
 
-.background-image {
-  background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
-  background-size: cover;
-  display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  height: 800px;
-  left: 0;
-  position: fixed;
-  right: 0;
-  z-index: 1;
-}
-.info {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 
 
@@ -336,8 +305,10 @@ header .introduction p {
   font-size: 3em;
   color: #FFD953;
   line-height: 1.8;
-  margin: 2px;
   font-weight: bold;
+  margin: auto;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  text-align: center;
 }
 
 #projects blockquote {
