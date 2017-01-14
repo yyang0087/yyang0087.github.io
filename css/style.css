@@ -30,6 +30,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media all and (max-height: 769px) { /* screen size until 1000px */
+    .about_text {
+        font-size: 0.8em; /* 1.2x default size */
+    }
+}
+@media all and (max-height: 545px) { /* screen size until 1000px */
+    .about_text {
+        font-size: 0.6em; /* 1.2x default size */
+    }
+}
+
 
 
 /**  Header Navigation **/
