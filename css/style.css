@@ -417,6 +417,7 @@ x
   background: #042C45;
   background-size: cover;
   text-align: center;
+
 }
 #contact img.icon {
   text-align: center;
@@ -477,9 +478,6 @@ textarea {
 }
 #git {
   border-radius: 900px;
-}
-#cform{
-  text-align: center;
 }
 
 
