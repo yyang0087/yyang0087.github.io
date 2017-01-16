@@ -275,7 +275,7 @@ header .introduction p {
   width: 100%;
 }
 .halfPicture{
-  background: url(../wp/train.jpg) no-repeat center center;
+  background: url(../resources/train.jpg) no-repeat center center;
   background-size: cover;
 
 }
@@ -291,7 +291,7 @@ header .introduction p {
 
 /**
 .about_text_adjustment {
-  background: url(../wp/train.jpg) no-repeat center center;
+  background: url(../resources/train.jpg) no-repeat center center;
   background-size: cover;
   filter: brightness(70%);
 }*/
@@ -314,7 +314,7 @@ header .introduction p {
 
 #projects {
   padding: 0;
-  /**background: url(../wp/6.jpg) no-repeat fixed center;*/
+  /**background: url(../resources/6.jpg) no-repeat fixed center;*/
   background-color: #666666;
   background-size: cover;
 }
@@ -352,23 +352,23 @@ header .introduction p {
   background-color: rgba(239,240,196,.9);
 }
 
-#projects #janeh {
-  background: url(../wp/globe.jpg) no-repeat center center;
+#projects #globe {
+  background: url(../resources/globe.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#projects #johnb {
-  background: url(../wp/pocketnote.jpg) no-repeat center center;
+#projects #pocketnote {
+  background: url(../resources/pocketnote.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#projects #mcphersons {
-  background: url(../wp/ticketBuddy.jpg) no-repeat center center;
+#projects #ticketbuddy {
+  background: url(../resources/ticketBuddy.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#projects #lorraines {
-  background: url(../wp/sweeper.jpg) no-repeat center center;
+#projects #sweeper {
+  background: url(../resources/sweeper.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -379,7 +379,7 @@ header .introduction p {
 }
 
 
-#projects .quote .more, #projects .customer {
+#projects .quote .more, #projects .project {
   opacity: 0;
   font-size: 0;
   line-height: 0;
@@ -396,7 +396,7 @@ header .introduction p {
   line-height: 120%;
 }
 
-#projects .quote:hover .customer {
+#projects .quote:hover .project {
   display: block;
   font-size: .7em;
   text-align: right;
