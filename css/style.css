@@ -406,6 +406,9 @@ x
 #projects .quote:hover .intro::after {
   content: '';
 }
+.proj{
+  border-radius: 20px;
+}
 
 
 
