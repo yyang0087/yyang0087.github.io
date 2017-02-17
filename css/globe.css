@@ -27,13 +27,14 @@ h1, h2, h3, h4, h5, h6 {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color: purple;
+  font-weight: 1.5em;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 250px 0;
   }
 }
 .intro-header .site-heading,
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  color: red;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
