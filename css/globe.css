@@ -28,6 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 .intro-header .page-heading {
   padding: 100px 0 50px;
   color: white;
+  outline-width: 5px;
+  outline-color: red;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
