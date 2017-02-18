@@ -27,8 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: purple;
-  font-weight: 1.5em;
+  color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -91,6 +90,12 @@ h1, h2, h3, h4, h5, h6 {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
+}
+.btn {
+  padding: 10px;
+}
+.ret_But {
+  margin: 30px;
 }
 
 

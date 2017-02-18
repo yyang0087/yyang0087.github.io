@@ -41,13 +41,13 @@
 
   <!-- Page Header -->
   <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header" style="background-image: url('../resources/1.jpg')">
+  <header class="intro-header" style="background-image: url('../resources/globe.jpg')">
       <div class="container">
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="post-heading">
-                      <h1>TicketBuddy</h1>
-                      <h2 class="subheading">A ticket exchange application</h2>
+                      <h1>Global Terrorism Attacks Globe</h1>
+                      <h2 class="subheading">This 3D globe shows the frequency of documented terrorist attacks on the Global Terrorism Database between 2012 and 2014.</h2>
                       <span class="meta">Posted by <a href="#">Yu-Lin Yang</a> on September 30, 2016</span>
                   </div>
               </div>
@@ -59,32 +59,23 @@
     <div class="container">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+                    <p><i>You can find a live demo <a href="http://yulinyang.me/GTA_Globe/">here</a>.</i></p>
 
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+                    <p>I built a 3D interactive globe showcasing the frequency of documented terrorist attacks on the Global Terrorism Database in 2012, 2013, and 2014 using WebGL Globe. This project was built for Capital One's "Global Data Visualization" Challenge.</p>
 
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                    <p>I chose the Global Terrorism attacks because of the obvious threat terrorists pose on the world these days. </p>
 
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-                    <h2 class="section-heading">The Final Frontier</h2>
-
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-                    <h2 class="section-heading">Reaching for the Stars</h2>
+                    <p>This data was first acquired from the GTD compiled by the University of Maryland - College Park. I downloaded the data in excel format, omitted unnecessary data, and exported as a JSON file. Since the data from the JSON file is not the same format as the one the Globe receives data, I wrote a JS program (Inside "Conversion Program") to gather all repeated latitude/longitudes by year and set it as the length (magnitude) of the line on the actual globe. (The rounding factor of longitude/latitude as well as the scale factor of the data set (line height) can be adjusted as well in this program)</p>
 
 
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
 
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+                    <p>The colors of the line is determined by the length of each line through statistical normalization (longer line - darker color, shorter line - lighter). Red, grey, and black were chosen as the dominant colors since that better reflects the violence of the topic (terrorism). Lastly, I used Photoshop to create a globe image.</p>
+
+                    <!--<h2 class="section-heading">The Final Frontier</h2> -->
+                    <div class="ret_But col-md-12 text-center">
+                      <button type="button" class="btn btn-primary" href="#" onclick="history.back();">Return to homepage</button>
+                    </div>
+                    
 
 
           </div>
