@@ -316,9 +316,20 @@ header .introduction p {
   padding: 0;
   /**background: url(../resources/6.jpg) no-repeat fixed center;*/
   background-color: #666666;
-  background-size: cover;
 }
+#proj_row {
 
+}
+.proj {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px 10px;
+}
+.globe {
+    max-width:100%;
+    /*max-height:50%;*/
+    vertical-align: middle;
+}
 #projects h2 {
   /**display: none;*/
   font-size: 3em;
@@ -329,6 +340,48 @@ header .introduction p {
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
   text-align: center;
 }
+
+
+
+
+.middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+  margin: 10px;
+  vertical-align: center;
+}
+
+.proj:hover .middle {
+  opacity: 1;
+}
+
+#projects .globe {
+
+}
+.midtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
 
 #projects blockquote {
   margin: 0;
@@ -350,11 +403,6 @@ header .introduction p {
 
 #projects blockquote .quote:hover {
   background-color: rgba(239,240,196,.9);
-}
-
-#projects #globe {
-  background: url(../resources/globe.jpg) no-repeat center center;
-  background-size: cover;
 }
 
 #projects #pocketnote {
@@ -401,13 +449,10 @@ header .introduction p {
   font-size: .7em;
   text-align: right;
 }
-x
+
 
 #projects .quote:hover .intro::after {
   content: '';
-}
-.proj{
-  border-radius: 20px;
 }
 
 
