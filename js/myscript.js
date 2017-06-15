@@ -144,7 +144,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top-topoffset+2
-        }, 500);
+        }, 1000);
         return false;
       } //target.length
     } //click function
