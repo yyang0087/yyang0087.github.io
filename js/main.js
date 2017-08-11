@@ -39,7 +39,6 @@ $(function() {
 
   window.onload = function() {
     fixPic();
-    console.log("hi");
   };
 
   function fixPic() {

@@ -185,7 +185,7 @@ header .introduction p {
 }
 
 .carousel.fade .item {
-  transition: opacity ease-out .7s;
+  transition: opacity ease-out 1.5s;
   left: 0;
   opacity: 0;
   top: 0;
@@ -458,6 +458,20 @@ header .introduction p {
 #projects .quote:hover .intro::after {
   content: '';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
