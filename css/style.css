@@ -271,6 +271,15 @@ header .introduction p {
   margin: 0px 10px 0px;
 }
 
+.about_text h4 {
+  
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #FFD953;
+  padding: 5px;
+  margin: 0px 10px 0px;
+}
+
 .about_text p {
   font-size: 1.2em;
   padding: 1px;
